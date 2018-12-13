@@ -46,7 +46,7 @@ Comando utilizado para eliminar directorios que se encunetren vacios.
 
 ```
 daniel@osnaya:~$ rmdir Dowloads
-daniel@osnaya:~$ ~$ ls
+daniel@osnaya:~$  ls
 
 Desktop   Music    Picture   Documents   
 ```
@@ -56,8 +56,8 @@ Desktop   Music    Picture   Documents
 Comando utilizado para eliminar directorios que contienen algun archivo.
 
 ```
-daniel@osnaya:~$ ~$ rm -r Dowloads/
-daniel@osnaya:~$ ~$ ls
+daniel@osnaya:~$  rm -r Dowloads/
+daniel@osnaya:~$  ls
 
 Desktop   Music    Picture   Documents   
 ```
@@ -67,8 +67,8 @@ Desktop   Music    Picture   Documents
 Comando utilizado para crear nuevos archivos sin salir del terminal.
 
 ```
-daniel@osnaya:~$ ~$ touch instruccion.txt
-daniel@osnaya:~$ ~$ ls
+daniel@osnaya:~$  touch instruccion.txt
+daniel@osnaya:~$  ls
 
 Desktop   Music    Picture   Documents   
 instruccion.txt
@@ -79,7 +79,7 @@ instruccion.txt
 Comando utilizado para editar archivos,te abre un editor de textos.
 
 ```
-daniel@osnaya:~$ ~$ pico instruccion.txt
+daniel@osnaya:~$  pico instruccion.txt
 
 ```
 
@@ -88,8 +88,8 @@ daniel@osnaya:~$ ~$ pico instruccion.txt
 Comando utilizado para asignartexto a un archivo sin abrir alguna ventana de editor de texto.
 
 ```
-daniel@osnaya:~$ ~$ echo Hola, mensaje de prueba >> instruccion.txt
-daniel@osnaya:~$ ~$ cat instruccion.txt
+daniel@osnaya:~$  echo Hola, mensaje de prueba >> instruccion.txt
+daniel@osnaya:~$  cat instruccion.txt
 Hola, mensaje de prueba
 
 ```
@@ -99,8 +99,75 @@ Hola, mensaje de prueba
 Comando utilizado para ver el contenido de una archivo.
 
 ```
-daniel@osnaya:~$ ~$ echo Hola, mensaje de prueba >> instruccion.txt
-daniel@osnaya:~$ ~$ cat instruccion.txt
+daniel@osnaya:~$  echo Hola, mensaje de prueba >> instruccion.txt
+daniel@osnaya:~$  cat instruccion.txt
 Hola, mensaje de prueba
 
 ```
+
+### pwd
+
+Comando que imprime la ruta en donde se encuntra o la ubicacion en cuanto a directorios
+
+
+```
+daniel@osnaya:~$ pdw
+/home/Desktop
+
+```
+
+### clear 
+
+Limpia la pantalla de tu terminal  
+
+```
+daniel@osnaya:~$ clear
+
+```
+
+### wc 
+
+Imprime en pantalla la cantidad de saltos de lineas, palabras y bytes totales que contenga un archivo.
+
+
+```
+
+daniel@osnaya:~$ wc archivo.txt
+2  8  32
+
+```
+
+### tail
+
+Comando que muestra en pantalla las ultimas lineas de un archivo.
+
+```
+daniel@osnaya:~$ cat hola.txt
+Hola
+mundo
+gran
+dia
+daniel@osnaya:~$ tail -n2 hola.txt
+gran
+dia
+
+```
+
+###head 
+
+Comando que muestra en pantalla las primeras lineas de un archivo.
+
+```
+daniel@osnaya:~$cat hola.txt
+hola
+mundo
+gran
+dia
+daniel@osnaya:~$head -n2 hola.txt
+hola 
+mundo
+
+```
+
+
+
