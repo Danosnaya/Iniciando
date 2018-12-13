@@ -11,7 +11,7 @@ Se debe iniciar la terminal de linux que sera la ejecutora de comandos
 Comando utilizado para identificar los directorios y/o archivos que estan 
 
 ```
-nayso@Alok-aspire:~$ ls
+daniel@osnaya:~$ ls
 
 Desktop   Music    Picture   Documents
 ```
@@ -21,21 +21,21 @@ Desktop   Music    Picture   Documents
 comando para ingresar a algun diectorio de 
 
 ```
-nayso@Alok-aspire:~$ cd Documents
+daniel@osnaya:~$ cd Documents
 ```
 
 Se ingresa a dicho directorio
 
 ```
-nayso@Alok-aspire:~/Documents$
+daniel@osnaya:~/Documents$
 ```
 ### mkdir
 
 Comando utilizado para crear nuevos  directorios.
 
 ```
-nayso@Alok-aspire:~$ mkdir Dowloads
-nayso@Alok-aspire:~$ ls
+daniel@osnaya:~$ mkdir Dowloads
+daniel@osnaya:~$ ls
 
 Desktop   Music    Picture   Documents   Dowloads
 ```
